@@ -2,7 +2,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-image: url(../img/andrew-de-leon--uWiIajRN0s-unsplash.jpg);
+    background-image: url(../img/ant-rozetsky-KhmJnxGrlWM-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,7 +15,7 @@ body{
     min-height: 90vh;
 }
 .container{
-    width: 350px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     padding: 0 15px 0 15px;
@@ -104,3 +104,17 @@ label a{
    display: flex;
    justify-content: center;
 }
+        .input-field a,
+        .input-field input {
+            width: 100%;
+        }
+    
+        .input-field input[type="text"] {
+            width: 100%;
+        }
+    
+        .input-field input[type="password"] {
+            width: 100%;
+        }
+
+               

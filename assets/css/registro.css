@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,800;0,900;1,200;1,300;1,500&family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&family=Roboto:ital,wght@0,300;1,100;1,300&family=Tilt+Prism&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.4.2/css/all.css');
+
+:root {
+    /* bg colors */
+    --background: #02050e;
+    --primary: #1e50ff;
+    --secondary: #272d37;
+    --btn-bg: #050d26;
+    --bg-azul-10: #e9eeff;
+    --bg-white: #fff;
+    --bg-electric: #f0fbff;
+    --nav-bg: #0f1525;
+    --red:#a12020;
+    /* Text colors */
+    --text-gray: #adb9c7;
+    --text-white: #f3f4f6;
+
+    --fire: #ff6d00;
+    --electric: #64d3ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../img/ant-rozetsky-KhmJnxGrlWM-unsplash.jpg);
+}
+.container-registro{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+
+}
+.container_1-registro{
+    width: 65%;
+    margin: 0 auto;
+    background-image: url(../img/ant-rozetsky-KhmJnxGrlWM-unsplash.jpg);
+    background-position:  0% 0%;
+    padding: 6rem 4rem;
+    color:var(--text-white);
+}
+.container_1-registro h2{
+    padding-bottom: 35%;
+    font-family: "Poppins", sans-serif;
+    font-family: "Vina Sans", cursive;
+    font-size:50px;
+}
+.container_1-registro .title{
+    font-size: 50px;
+}
+.container_1-registro .icon i{
+    margin:2% 1%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.container_2-registro{
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 4rem;
+    color:var(--bg-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container_2-registro h2{
+    margin-bottom: 100px;
+    padding-left: 5%;
+}
+.form-control{
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.form-control input{
+    background-color: rgba(0,0,0,0);
+    width: 100%;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid var(--bg-white);
+    font-size: 20px;
+}
+.form-control input::placeholder{
+    color:var(--text-white);
+}
+.form-control span{
+    width: 0%;
+    border-bottom: 2px solid var(--secondary);
+    position: absolute;
+    left:0%;
+    top:27px;
+    transition: 0.3s;
+}
+.form-control input:focus ~ span{
+    width: 100%;
+}
+.form-control small{
+    position: absolute;
+    left: 0;
+    top:30px;
+}
+.container_2-registro button{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+background-color: #0c5a79;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color:var(--text-white);
+    font-size: 20px;
+}
+.container_2-registro a{
+    text-decoration: none;
+    color:var(--electric);
+
+}
+.container_2-registro .content-registro{
+    text-align: center;
+    margin:50px 0;
+
+}
+.container_2-registro .content-registro a:hover{
+    text-decoration: underline;
+}
+.container_2-registro button:hover{
+    background-color: var(--primary);
+}
+
+@media(max-width:767px){
+    /*REGISTRO*/
+        .container-registro {
+            flex-direction: column;
+            width: 100%;
+    
+        }
+    
+        .container_1-registro {
+            width: 100%;
+        }
+    
+        .container_1-registro h2 {
+            font-size: 26px;
+            text-align: center;
+        }
+    
+        .container_1-registro .title {
+            font-size: 20px;
+            text-align: center;
+            width: 100%;
+        }
+    
+        .container_2-registro {
+            width: 100%;
+            margin-left: 15px;
+            margin-bottom: 15px;
+        }
+       .content-registro{
+        text-align: center;
+        font-size: 16px;
+       }
+           .form-control input {
+            font-size: 16px;
+            text-align: center;
+           }
+}

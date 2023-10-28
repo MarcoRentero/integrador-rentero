@@ -54,6 +54,11 @@
     .menu-items a .seccionUno {
         flex-wrap: nowrap;
     }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
 
          /*MENU-HEADER*/
 
@@ -74,11 +79,11 @@
         /*NOSOTROS-ACERCA DE*/
     .nosotros{
         align-items: center;
+        width: 100%;
     }
     .ceo {
         flex-direction: column;
-        width: 100%;
-        margin-left: 5px;
+       
         
     }
 
@@ -100,6 +105,8 @@
               flex-direction: column;
               flex-wrap: wrap;
               align-items: center;
+              justify-content: center;
+              width: 90%;
           }
     
           .productos {
@@ -151,7 +158,7 @@
     flex-direction: column;
     height: 800px;
     gap: 5px;
-    width:350px;
+    width:375px;
 }
 h3{
     font-size: 13px;
@@ -175,4 +182,5 @@ form div input{
       flex-direction: column;
       text-align: center;
   }
+
 }
