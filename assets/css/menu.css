@@ -1,3 +1,4 @@
+@import url('https://use.fontawesome.com/releases/v6.4.2/css/all.css');
 /*inicio ,registro y logo*/
 .nav__logo {
     display: flex;
@@ -7,7 +8,10 @@
     margin: 10px;
 }
 
-
+.redes{
+    display: flex;
+    flex-direction: column;
+}
 .redes a {
     display: inline-block;
     text-decoration: none;

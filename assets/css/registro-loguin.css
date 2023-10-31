@@ -30,11 +30,18 @@ body{
     flex-direction: column;
     justify-content: center;
     background-image: url(../img/ant-rozetsky-KhmJnxGrlWM-unsplash.jpg);
+
 }
+
 .container-registro{
     width: 80%;
     display: flex;
-    margin: 0 auto;
+    margin: 0 auto ;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 0;
+    z-index: 0;
+  
 
 }
 .container_1-registro{
@@ -44,6 +51,7 @@ body{
     background-position:  0% 0%;
     padding: 6rem 4rem;
     color:var(--text-white);
+    line-height: 30px;
 }
 .container_1-registro h2{
     padding-bottom: 35%;
@@ -53,11 +61,6 @@ body{
 }
 .container_1-registro .title{
     font-size: 50px;
-}
-.container_1-registro .icon i{
-    margin:2% 1%;
-    font-size: 25px;
-    cursor: pointer;
 }
 .container_2-registro{
     width: 40%;
@@ -91,7 +94,7 @@ body{
 }
 .form-control span{
     width: 0%;
-    border-bottom: 2px solid var(--secondary);
+    border-bottom: 2px solid var(--electric);
     position: absolute;
     left:0%;
     top:27px;
@@ -104,6 +107,9 @@ body{
     position: absolute;
     left: 0;
     top:30px;
+}
+.container_2-registro{
+    border-radius: 16px;
 }
 .container_2-registro button{
     width: 100%;
@@ -133,7 +139,29 @@ background-color: #0c5a79;
 .container_2-registro button:hover{
     background-color: var(--primary);
 }
+.content-registro {
+    font-size: 1.3rem;
+}
 
+@media(max-width:1550px) {
+
+    /*REGISTRO*/
+    .container-registro {
+        flex-direction: column;
+        width: 100%;
+    
+
+    }
+    .container_2-registro{
+       margin: auto;
+       width: 80%;
+        text-align: center;
+     
+    }
+    .container_1-registro .title{
+        font-size: 26px;
+    }
+}
 @media(max-width:767px){
     /*REGISTRO*/
         .container-registro {
