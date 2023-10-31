@@ -40,15 +40,18 @@
 
  /*---------------HERO-NOHERO--------------*/
  .seccionUno .containerOne {
-     width: 80%;
+     width: 90%;
      justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap:wrap
 
  }
 
  .seccionUno .logo{
     flex-wrap: nowrap;
 
+ }
+ .logo img{
+    width: 80%;
  }
 
 
