@@ -1,10 +1,6 @@
 
 /*DESKTOP*/
 @media(min-width:1024px) {
-    .ofertas {
-            max-width: 50%;
-            flex-direction: row;
-        }
 
         .botons {
             display: flex;
@@ -21,7 +17,10 @@
 /*TABLET*/
 @media(min-width:767px) and (max-width:1023px){
     /*MENU-HEADER*/
-
+    .ofertas {
+            flex-wrap: wrap;
+            width: 50%;
+        }
       .menu-items a{
         font-size: 1rem;
         line-height: 10px;
@@ -57,11 +56,7 @@
 
 
  /*---------------HERO-NOHERO--------------*/
-        .ofertas{
-    flex-direction: column;
-    width: 50px;
-    /* border: solid red 1px; */
-}
+
 .productos img{
     width: 20%;
 }
@@ -77,10 +72,7 @@
    }
 
 /*-------PRODUCTOS-----------*/
-.ofertas{
-    flex-direction: column;
-    width: 50%;
-}
+
 .botons{
     display: flex;
     flex-direction: column;
@@ -199,13 +191,10 @@
 
     /*----------OFERTAS------------*/
 
-          .ofertas {
-              flex-direction: column;
-              flex-wrap: wrap;
-              align-items: center;
-              justify-content: center;
-              width: 90%;
-          }
+           .ofertas {
+               flex-wrap: wrap;
+               width: 90%;
+           }
 
           .productos {
               width: 100%;
